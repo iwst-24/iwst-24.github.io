@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st International Workshop on Smart Tourism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top-bar {
+            background: #333;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin-right: 1rem;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .top-bar a:hover {
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        section {
+            padding: 3rem 2rem;
+            margin: 2rem auto;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            border-radius: 12px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section h2 {
+            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        section p, section ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        section ul {
+            padding-left: 20px;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav ul li {
+                margin: 0 10px;
+            }
+            nav ul li a {
+                font-size: 1rem;
+            }
+            section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <span>Held in Conjunction with IEEE Smart World Congress, Denarau Island, Fiji, December 02 – 07, 2024</span>
+        <a href="iwst24_flyer.pdf" download>Download Flyer</a>
+    </div>
+
+    <header>
+        <h1>1st International Workshop on Smart Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aim">Aim and Scope</a></li>
+                <li><a href="#topics">Topics of Interest</a></li>
+                <li><a href="#guidelines">Submission Guidelines</a></li>
+                <li><a href="#dates">Important Dates</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>The 1st International Workshop on Smart Tourism aims to unite industry professionals, technology experts, and researchers to explore the integration of advanced technologies in the tourism industry.</p>
+    </section>
+
+    <section id="aim">
+        <h2>Aim and Scope</h2>
+        <p>The workshop aims to unite industry professionals, technology experts, and researchers to explore the integration of advanced technologies in the tourism industry, focusing on enhancing operational efficiency and customer satisfaction through smart tourism.</p>
+        <p>It will delve into the use of AI, IoT, blockchain, big data analytics, VR, and AR to revolutionize travel experiences, promote sustainable tourism practices, and develop sustainable cities. Additionally, the workshop will address challenges related to data privacy, security, and ethical issues, while identifying future technological trends in digital tourism.</p>
+    </section>
+
+    <section id="topics">
+        <h2>Topics of Interest</h2>
+        <ul>
+            <li>The Role of AI in Personalizing Travel Experiences</li>
+            <li>Implementing IoT for Enhanced Tourist Safety and Comfort</li>
+            <li>Blockchain Applications in Secure Booking and Payments</li>
+            <li>Big Data Analytics in Understanding Tourist Behaviors</li>
+            <li>Sustainable Tourism Practices Enabled by Technology</li>
+            <li>AR and VR: Transforming Visitor Experiences at Tourist Attractions</li>
+            <li>The Impact of Mobile Technologies on Travel Accessibility</li>
+            <li>Smart City Solutions for Sustainable Tourist Management</li>
+            <li>Ethical Considerations in the Use of Technology in Tourism</li>
+            <li>Challenges of Data Security and Privacy in Digital Tourism</li>
+            <li>Emerging Technologies: The Future of Smart Tourism</li>
+            <li>Case Studies of Successful Smart Tourism Implementations</li>
+            <li>The Evolution of Customer Service with Chatbots and AI in Tourism</li>
+            <li>Strategies for Integrating Local Cultures with Smart Tourism Technologies</li>
+            <li>The Role of 5G in Enhancing Real-time Travel Services</li>
+        </ul>
+    </section>
+
+    <section id="guidelines">
+        <h2>Submission and Publication Guidelines</h2>
+        <p>Submit your papers through the <a href="https://edas.info/N32635">https://edas.info/N32635</a> portal. Full papers should be 4-6 pages, and Position Statement Papers 2-4 pages, both including figures and references, formatted according to IEEE CS Proceedings guidelines available at IEEE formatting information.</p>
+        <p>Position papers should introduce new ideas or research directions in Generative AI and Hyper Intelligence and will undergo a peer review for novelty and impact. Authors of accepted papers must register and can present in person or virtually at the conference. All accepted papers will be published in the IEEE Computer Society proceedings, indexed in IEEE-DL and EI.</p>
+    </section>
+
+    <section id="dates">
+        <h2>Important Dates</h2>
+        <ul>
+            <li>Submission Deadline: July 31st, 2024</li>
+            <li>Acceptance Notification: August 25th, 2024</li>
+            <li>Camera-ready Submission: September 15th, 2024</li>
+        </ul>
+    </section>
+
+    <section id="organizers">
+        <h2>Organizers</h2>
+        <p>General Chair: A B M Shawkat Ali, The University of Fiji</p>
+        <p>Program Chair: M G M Khan, The University of the South Pacific</p>
+        <p>Contact Email: <a href="mailto:shawkat.ali@ieee.org">shawkat.ali@ieee.org</a></p>
+    </section>
+
+    <footer>
+        <p>Held in Conjunction with IEEE Smart World Congress, Denarau Island, Fiji, December 02 – 07, 2024</p>
+        <p>&copy; 2024 IWST. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add any interactivity here if needed
+        document.addEventListener("DOMContentLoaded", function() {
+            // Example of smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
